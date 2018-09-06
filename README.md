@@ -1,11 +1,13 @@
-# data_analysis_memos
+# Data Analysis Memos
 
-Memorandums on data analysis for SITELLE written in Jupyter (http://jupyter.org/)
+Memorandums on data analysis for **SITELLE** written in Jupyter (http://jupyter.org/)
 
 ## Linux topics
 
+* [Welcome to celeste](linux/welcome_to_celeste.md)
+
 ## Basic topics
-* [Introduction to python](introduction.ipynb)
+* [Introduction to Python](introduction.ipynb)
 
 * [General objects: list, tuple, dict](basics_list_tuple_dict.ipynb)
 
