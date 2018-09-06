@@ -2,7 +2,7 @@
 
 ## SSH
 
-You can connect remotely on celeste via ssh with your `login` and `password`. 
+You can connect remotely on `celeste` via `ssh` with your `login` and `password`. 
 If you have an **ssh client** (by default on most linux distributions and Mac OSX) you have to launch a shell emulator:
 
 * MAC: Applications → Utilities → Terminal (https://superuser.com/questions/178735/how-do-you-get-a-shell-on-a-mac)
@@ -19,9 +19,9 @@ login@celeste:~$
 
 ## First things to do 
 
-There are a few things to setup your session. **You won't have to do it again.**
+There are a few things to set up your session. **You won't have to do it again.**
 
-### Change your default assword
+### Change your default password
 
 Type the command 
 ```
@@ -39,7 +39,7 @@ You won't have to do it again unless asked by the administrator.
 
 ### Find help on how to use a linux shell
 
-If you're new to it and want to google some help know that `shell` , bash`, command line` are more or less the same stuff.
+If you're new to it and want to google some help, know that `shell` , `bash`, `command line` are more or less the same stuff.
 
 You could find some help by looking at :
 * https://ryanstutorials.net/linuxtutorial/
