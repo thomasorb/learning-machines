@@ -17,9 +17,9 @@ Memorandums on data analysis for **SITELLE** written in Jupyter (http://jupyter.
 
 * [Astropy](basics/basics_astropy_fits.ipynb)
 
-* [Exercises on astropy](basics/basics_exercices_galaxy_fit.ipynb)
+* [Exercises: using astropy](basics/basics_exercices_galaxy_fit.ipynb)
 
-* [Exercices on hanfling astronomical catalogs (e.g. Vizier)](basics/basics_exercices_catalogs.ipynb)
+* [Exercices: Handling astronomical catalogs (e.g. Vizier)](basics/basics_exercices_catalogs.ipynb)
 
 ## ORCS
 
