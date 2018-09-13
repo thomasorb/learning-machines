@@ -17,11 +17,17 @@ Memorandums on data analysis for **SITELLE** written in Jupyter (http://jupyter.
 
 * [Astropy](basics/basics_astropy_fits.ipynb)
 
-* [Exercises on astropy](basics/basics_exercices_galaxy_fit.ipynb)
+* [Exercises: using astropy](basics/basics_exercices_galaxy_fit.ipynb)
 
-* [Exercices on hanfling astronomical catalogs (e.g. Vizier)](basics/basics_exercices_catalogs.ipynb)
+* [Exercices: Handling astronomical catalogs (e.g. Vizier)](basics/basics_exercices_catalogs.ipynb)
 
 ## ORCS
 
+* [Fourier transform of an interferogram](orcs/orcs_fourier_transform.ipynb)
+
 * [Understanding fitting algorithms](orcs/orcs_fitting_algorithms.ipynb)
+
+* [First steps with ORB basic fitting functions](orcs/orcs_first_steps.ipynb)
+
+* [Extracting and fitting a spectrum, using WCS](orcs/orcs_spectral_cube_analysis.ipynb)
 
