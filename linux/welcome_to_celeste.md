@@ -91,7 +91,7 @@ ssh -p 443 -L 8099:localhost:9543 login@celeste.phy.ulaval.ca
 
 Don't exit the shell.
 
-You can finally open http://localhost:8099 in a web browser.
+You can finally open http://localhost:8099/lab in a web browser.
 
 Remember that **these two last steps will have to be repeated each time you reboot your local machine.**
 
