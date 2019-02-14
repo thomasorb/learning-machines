@@ -29,13 +29,12 @@ passwd
 ```
 and enter your new password.
 
-### Activate the data analysis library ORCS
+### Activate your virtual environment for ORCS
 
 Type the command 
 ```bash
-orb-change-mode stable
+source activate orb
 ```
-You won't have to do it again unless asked by the administrator.
 
 ### Find help on how to use a linux shell
 
