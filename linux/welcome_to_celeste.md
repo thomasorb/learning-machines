@@ -30,6 +30,15 @@ Port 443
 LocalForward 8099 localhost:9543 # look below to understand why its here
 ```
 
+With this config file created you can connect with
+```bash
+ssh celeste
+```
+
+and you can copy files with
+```bash
+rsync -av celeste:/absolute/path/to/your/remote/file /path/to/your/local/folder/
+```
 ## First things to do 
 
 There are a few things to set up your session. **You won't have to do it again.**
@@ -62,7 +71,7 @@ You can find some help on Jupyter and Jupyter Lab here:
 * https://jupyter.org/
 * https://jupyterlab.readthedocs.io/en/latest/
 
-To run a jupter server on celeste you must do the following:
+To run a jupyter server on celeste you must do the following:
 
 ### on celeste
 In the shell
