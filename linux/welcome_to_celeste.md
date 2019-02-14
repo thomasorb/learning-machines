@@ -17,6 +17,19 @@ You wil be prompt for your password and finally see the command line:
 login@celeste:~$
 ```
 
+To connect faster you can create an ssh config file `~/.ssh/config`:
+```bash
+ForwardX11 yes
+ServerAliveInterval 30
+ForwardX11Trusted yes
+
+Host celeste
+HostName celeste.phy.ulaval.ca
+User username
+Port 443
+LocalForward 8099 localhost:9543 # look below to understand why its here
+```
+
 ## First things to do 
 
 There are a few things to set up your session. **You won't have to do it again.**
