@@ -96,6 +96,7 @@ c.NotebookApp.password = u'sha1:e3505988559c:73931....' # put here the hashed pa
 
 You can now run jupyter with
 ```bash
+source activate orb
 screen jupyter lab
 ```
 and get out of here with `CTRL+A, CTRL+D.`
