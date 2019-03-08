@@ -49,12 +49,17 @@ git clone https://github.com/thomasorb/orb.git
 
 in the downloaded folder
 ```bash
-conda activate orb
+conda activate orb # you don't need to do it if you are already in the orb environment
 cd path/to/orb-stable
 python setup.py build_ext --inplace
 python setup.py install
 ```
 
+Test it:
+```bash
+conda activate orb # you don't need to do it if you are already in the orb environment
+python -c 'import orb.core'
+```
 ## 5. add orcs module
 
 clone [ORCS](https://github.com/thomasorb/orcs)
@@ -66,7 +71,26 @@ git clone https://github.com/thomasorb/orcs.git
 
 in the downloaded folder
 ```bash
-conda activate orb
+conda activate orb # you don't need to do it if you are already in the orb environment
 cd path/to/orcs-stable
 python setup.py install
 ```
+
+Test it:
+```bash
+conda activate orb # you don't need to do it if you are already in the orb environment
+python -c 'import orcs.process'
+```
+
+## 6. Install jupyter
+
+```bash
+conda install -n orb -c conda-forge jupyterlab
+```
+Run it
+
+```bash
+conda activate orb # you don't need to do it if you are already in the orb environment
+jupyter lab
+```
+You should now have your web browser opened and showing the jupyter lab interface !
