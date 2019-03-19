@@ -32,3 +32,7 @@ Memorandums on data analysis for **SITELLE** written in Jupyter (http://jupyter.
 * [Extracting and fitting a spectrum, using WCS](orcs/orcs_spectral_cube_analysis.ipynb)
 
 * [Let's calculate stuff with ORCS](orcs/orcs_calculate.ipynb)
+
+## Advanced topics
+
+* [Miscellaneous proofs](advanced/proofs.ipynb)
