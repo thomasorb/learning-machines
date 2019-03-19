@@ -36,8 +36,10 @@ If you cannot display the notebooks within github, try the link `(nbviewer)`
 
 * [Extracting and fitting a spectrum, using WCS](orcs/orcs_spectral_cube_analysis.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/thomasorb/data_analysis_memos/blob/master/orcs/orcs_spectral_cube_analysis.ipynb))
 
-* [Let's calculate stuff with ORCS](orcs/orcs_calculate.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/thomasorb/data_analysis_memos/blob/master/orcs/orcs_calculate.ipynb))
+
 
 ## Advanced topics
+
+* [Let's calculate stuff](advanced/orcs_calculate.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/thomasorb/data_analysis_memos/blob/master/advanced/orcs_calculate.ipynb))
 
 * [Miscellaneous proofs](advanced/proofs.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/thomasorb/data_analysis_memos/blob/master/advanced/proofs.ipynb))
