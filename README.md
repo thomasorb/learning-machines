@@ -43,3 +43,7 @@ If you cannot display the notebooks within github, try the link `(nbviewer)`
 * [Let's calculate stuff](advanced/orcs_calculate.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/thomasorb/data_analysis_memos/blob/master/advanced/orcs_calculate.ipynb?flush_cache=true))
 
 * [Miscellaneous proofs](advanced/proofs.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/thomasorb/data_analysis_memos/blob/master/advanced/proofs.ipynb?flush_cache=true))
+
+## Cython examples
+
+* [Cython example](cython/cython_example.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/thomasorb/data_analysis_memos/blob/master/cython/cython_example.ipynb?flush_cache=true))
