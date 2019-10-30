@@ -1,0 +1,8 @@
+import numpy as np
+import pylab as pl
+
+import clib
+
+
+
+print clib.gaussian_array2d(0, 1, 5.2, 4.6, 2., 10, 10)
