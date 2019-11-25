@@ -39,7 +39,8 @@ Workshop series on data analysis and machine learning for astropysics
  
  ## 3 - Deep learning
  
- Embrace the full power of the force with pyTorch
+Make intelligence emerge from sand and practice ethical slavery
+
 
 
 
