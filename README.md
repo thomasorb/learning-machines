@@ -1,8 +1,8 @@
-# learning-machines
-Workshop series on data analysis and machine learning for astropysics
+# Learning Machines
 
+Workshop series on data analysis and machine learning for astrophysics
 
-# table of contents
+# Table of Contents
 
 ## 0 - Python for data analysis 101
 
@@ -12,7 +12,7 @@ Workshop series on data analysis and machine learning for astropysics
 - Matplotlib / k3d
 - Astropy
 
-## 1 - Optimization and modeling
+## 1 - Optimization and Modeling
 
 - Classical modeling: least-square basics (best fit and classic uncertainty estimation)
 - LSMC: exploring the parameter space with Monte-Carlo
@@ -25,17 +25,17 @@ Workshop series on data analysis and machine learning for astropysics
   - M1, how to deconvolve multiple emission lines along the line-of-sight ?
   - Recover orbital parameters from a luminosity curve
  
-## 2 - Old school machine learning
+## 2 - Old-School Machine Learning
 
-- detect patterns with convolution
-- do it faster, do it with Cython
-- classification and modeling
+- Detect patterns with convolution
+- Pump up your Python (with Cython)
+- Classification and modeling
   - PCA: how to start drawing curved lines
-  - walk through random forests and let the machines show you what you fail to see
+  - Walk through random forests and let the machines show you what you fail to see
 
 - examples:
-  - find a thousand planetary nebulae in a 3 billion voxels haystack
-  - redefine the regions of the BPT diagram
+  - Find a thousand planetary nebulae in a 3 billion voxels haystack
+  - Redefine the regions of the BPT diagram
  
  ## 3 - Deep learning
  
