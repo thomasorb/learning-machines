@@ -103,12 +103,12 @@ pip install lsqfit --no-deps
 ## 4. Install jupyter
 
 ```bash
-conda install -n orb -c conda-forge jupyterlab
+conda install -n learn -c conda-forge jupyterlab
 ```
 Run it
 
 ```bash
-conda activate orb # you don't need to do it if you are already in the orb environment
+conda activate learn # you don't need to do it if you are already in the orb environment
 jupyter lab
 ```
 You should now have your web browser opened and showing the jupyter lab interface !
