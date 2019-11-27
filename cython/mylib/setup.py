@@ -1,0 +1,57 @@
+from Cython.Build import cythonize
+from setuptools import setup, Extension, find_packages
+import io
+import codecs
+import os
+import sys
+import numpy
+
+packages = find_packages(where=".")
+
+here = os.path.abspath(os.path.dirname(__file__))
+
+with io.open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
+    long_description = f.read()
+    
+extensions = [
+ Extension(
+     "lib.clib",
+     [
+         "lib/clib.pyx"
+     ],
+     include_dirs=[numpy.get_include()]
+ ),
+]
+
+setup(
+    name='mylib',
+    ext_modules=cythonize(extensions),
+    version='1.0',
+    url='https://myurl.com',
+    license='GPLv3+',
+    author='Me',
+    author_email='me@home.ca',
+    maintainer='Me',
+    maintainer_email='me@home.ca',
+    setup_requires=['cython', 'numpy'],
+    description='Cython example',
+    long_description=long_description,
+    packages=packages,
+    package_dir={"": "."},
+    include_package_data=True,
+    package_data={
+        '':['LICENSE.txt', '*.rst', '*.txt', 'docs/*', '*.pyx'],
+        'orb':['data/*', '*.pyx']},
+    exclude_package_data={
+        '': ['*~', '*.so', '*.pyc', '*.c', 'orb/cgvar.c'],
+        'orb':['*~', '*.so', '*.pyc', '*.c']},
+    platforms='any',
+    scripts=[],
+    classifiers = [
+        'Programming Language :: Python',
+        'Programming Language :: Cython',
+        'Development Status :: 4 - Beta',
+        'Natural Language :: English',
+        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+        'Operating System :: OS Independent' ],
+)
