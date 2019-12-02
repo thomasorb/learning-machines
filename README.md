@@ -2,8 +2,7 @@
 
 Workshop series on data analysis and machine learning for astrophysics
 
-<img style="float: center;" width=300 src="images/readme.png" https://retrosci-fi.tumblr.com/post/144136869134/hugo-gernsback-the-great-writer-with-his-idea>
-
+<img style="float: center;" width=300 src="../images/readme.png" url=https://retrosci-fi.tumblr.com/post/144136869134/hugo-gernsback-the-great-writer-with-his-idea>
 
 ## Table of Contents
 
@@ -68,7 +67,7 @@ conda install conda-build
 
 create an environment and install needed modules manually
 ```bash
-conda create -n learn python=3.7 
+conda create -n learn python=3 .7 
 conda install -n learn numpy scipy bottleneck matplotlib astropy cython h5py pandas
 conda install -n learn -c conda-forge pyregion
 conda install -n learn -c astropy photutils astroquery
