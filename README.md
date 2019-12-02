@@ -2,17 +2,21 @@
 
 Workshop series on data analysis and machine learning for astrophysics
 
-# Table of Contents
+<img style="float: center;" width=300 src="images/readme.png" https://retrosci-fi.tumblr.com/post/144136869134/hugo-gernsback-the-great-writer-with-his-idea>
 
-## 0 - Python for data analysis 101
+
+## Table of Contents
+
+### 0 - Python for data analysis 101
 
 - Object Oriented Programming: take the green path and create a software ecosystem
 - Numpy: killing the for-loop
 - Scipy
 - Matplotlib / k3d
 - Astropy
+- [Dealing with uncertainties (Gvar and PyNeb)](mcmc/uncetainties.ipynb)
 
-## 1 - Optimization and Modeling
+### 1 - Optimization and Modeling
 
 - Classical modeling: least-square basics (best fit and classic uncertainty estimation)
 - LSMC: exploring the parameter space with Monte-Carlo
@@ -25,7 +29,7 @@ Workshop series on data analysis and machine learning for astrophysics
   - M1, how to deconvolve multiple emission lines along the line-of-sight ?
   - Recover orbital parameters from a luminosity curve
  
-## 2 - Old-School Machine Learning
+### 2 - Old-School Machine Learning
 
 - Detect patterns with convolution
 - Pump up your Python (with Cython)
@@ -37,15 +41,15 @@ Workshop series on data analysis and machine learning for astrophysics
   - Find a thousand planetary nebulae in a 3 billion voxels haystack
   - Redefine the regions of the BPT diagram
  
- ## 3 - Deep learning
+### 3 - Deep learning
  
 Make intelligence emerge from sand and practice ethical slavery
 
-# Installation
+## Installation
 
 installation instructions with Anaconda (should work on Linux, Mac OSX, Windows)
 
-## 1. download Miniconda for your OS and python 3.7.
+### 1. download Miniconda for your OS and python 3.7.
 
 **If you already have [Anaconda](https://www.anaconda.com/) installed go to step 2**
 
@@ -55,12 +59,12 @@ instructions are here: [Miniconda — Conda](https://conda.io/miniconda.html)
 ```bash
 bash Miniconda*.sh
 ```
-## 2. install `conda-build` tools
+### 2. install `conda-build` tools
 ```bash
 conda install conda-build
 ```
 
-## 3. create your environment
+### 3. create your environment
 
 create an environment and install needed modules manually
 ```bash
@@ -82,7 +86,7 @@ You may then activate your environment with
 ```
 conda activate learn
 ```
-now your prompt should be something like `(learn) $`. If `conda activate learn` does not work. Please do the following `conda init bash` (if bash is your shell
+now your prompt should be something like ``(learn)``. If `conda activate learn` does not work. Please do the following `conda init bash` (if bash is your shell
 
 note: you may now have to install `gcc` on Mac OSX or linux if you want to be able to execute the following with no error (see https://discussions.apple.com/thread/8336714). To check that you have gcc installed type `gcc --help` in a terminal. You should see the usage informations displayed.
 
@@ -97,10 +101,10 @@ Then you can install the last python modules with pip (because those modules are
 ```bash
 pip install gvar --no-deps
 pip install lsqfit --no-deps
+pip install pyneb --no-deps
 ```
 
-
-## 4. Install jupyter
+### 4. Install jupyter
 
 ```bash
 conda install -n learn -c conda-forge jupyterlab
@@ -114,6 +118,10 @@ jupyter lab
 You should now have your web browser opened and showing the jupyter lab interface !
 
 
+## General bibliography
 
- 
+* [Wall, J.V & Jenkins, C.R., Practical Statistics for Astronomers](https://doi.org/10.1017/CBO9780511536618)
+* [Andrae, R., Error estimation in astronomy: A guide](http://arxiv.org/abs/1009)
+* [Goodfellow, Bengio, Courville, Deep Learning](http://www.deeplearningbook.org/)
+* [Phil, G, Bayesian Logical Data Analysis for the Physical Sciences](https://doi.org/10.1017/CBO9780511791277)
  

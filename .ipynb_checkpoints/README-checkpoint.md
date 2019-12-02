@@ -1,38 +1,127 @@
-# Data Analysis Memos
+# Learning Machines
 
-Memorandums on data analysis for **SITELLE** written in Jupyter (http://jupyter.org/)
+Workshop series on data analysis and machine learning for astrophysics
 
-## Linux topics
+<img style="float: center;" width=300 src="images/readme.png" https://retrosci-fi.tumblr.com/post/144136869134/hugo-gernsback-the-great-writer-with-his-idea>
 
-* [Welcome to celeste](linux/welcome_to_celeste.md)
 
-## Basic topics
-* [Introduction to Python](basics/introduction.ipynb)
+## Table of Contents
 
-* [General objects: list, tuple, dict](basics/basics_list_tuple_dict.ipynb)
+### 0 - Python for data analysis 101
 
-* [Handling arrays with Numpy](basics/basics_numpy_arrays.ipynb)
+- Object Oriented Programming: take the green path and create a software ecosystem
+- Numpy: killing the for-loop
+- Scipy
+- Matplotlib / k3d
+- Astropy
+- [Dealing with uncertainties (Gvar and PyNeb)](mcmc/uncetainties.ipynb)
 
-* [Fitting and interpolating data with Scipy](basics/basics_scipy_interpolations_fitting.ipynb)
+### 1 - Optimization and Modeling
 
-* [Astropy](basics/basics_astropy_fits.ipynb)
+- Classical modeling: least-square basics (best fit and classic uncertainty estimation)
+- LSMC: exploring the parameter space with Monte-Carlo
+- code parallelization (writing multiple papers at the same time)
+- Bayesian optimization and the Markov-Chain (chaining drunks)
+- First steps on the Bayesian side of the force : Okham's razor, systematic errors and the power of priors.
+ 
+- examples: 
+  - Non-linear model fitting
+  - M1, how to deconvolve multiple emission lines along the line-of-sight ?
+  - Recover orbital parameters from a luminosity curve
+ 
+### 2 - Old-School Machine Learning
 
-* [Exercises: using astropy](basics/basics_exercices_galaxy_fit.ipynb)
+- Detect patterns with convolution
+- Pump up your Python (with Cython)
+- Classification and modeling
+  - PCA: how to start drawing curved lines
+  - Walk through random forests and let the machines show you what you fail to see
 
-* [Exercices: Handling astronomical catalogs (e.g. Vizier)](basics/basics_exercices_catalogs.ipynb)
+- examples:
+  - Find a thousand planetary nebulae in a 3 billion voxels haystack
+  - Redefine the regions of the BPT diagram
+ 
+### 3 - Deep learning
+ 
+Make intelligence emerge from sand and practice ethical slavery
 
-## ORCS
+## Installation
 
-* [Fourier transform of an interferogram](orcs/orcs_fourier_transform.ipynb)
+installation instructions with Anaconda (should work on Linux, Mac OSX, Windows)
 
-* [Understanding fitting algorithms](orcs/orcs_fitting_algorithms.ipynb)
+### 1. download Miniconda for your OS and python 3.7.
 
-* [First steps with ORB basic fitting functions](orcs/orcs_first_steps.ipynb)
+**If you already have [Anaconda](https://www.anaconda.com/) installed go to step 2**
 
-* [Extracting and fitting a spectrum, using WCS](orcs/orcs_spectral_cube_analysis.ipynb)
+instructions are here: [Miniconda — Conda](https://conda.io/miniconda.html)
+1. place the downloaded file on your home directory
+2. install it (use the real file name instead of `Miniconda*.sh`)
+```bash
+bash Miniconda*.sh
+```
+### 2. install `conda-build` tools
+```bash
+conda install conda-build
+```
 
-* [Let's calculate stuff with ORCS](orcs/orcs_calculate.ipynb)
+### 3. create your environment
 
-## Advanced topics
+create an environment and install needed modules manually
+```bash
+conda create -n learn python=3 .7 
+conda install -n learn numpy scipy bottleneck matplotlib astropy cython h5py pandas
+conda install -n learn -c conda-forge pyregion
+conda install -n learn -c astropy photutils astroquery
+```
+if your shell is bash, which is now generally the case for OSX and most linux distributions please do
+```
+conda init bash
+```
+If you have a different shell replace bash with the name of your shell.
 
-* [Miscellaneous proofs](advanced/proofs.ipynb)
+Now if you have Scisoft installed (which does not goes well with Anaconda/Python... but still you may want to have it)
+then please add `export PYTHONPATH=''` at the end of your profile file where some environment variables are defined (e.g. `.bashrc`, `.profile`, `.bash_profile`).
+
+You may then activate your environment with
+```
+conda activate learn
+```
+now your prompt should be something like ``(learn)``. If `conda activate learn` does not work. Please do the following `conda init bash` (if bash is your shell
+
+note: you may now have to install `gcc` on Mac OSX or linux if you want to be able to execute the following with no error (see https://discussions.apple.com/thread/8336714). To check that you have gcc installed type `gcc --help` in a terminal. You should see the usage informations displayed.
+
+e.g. to install `gcc` under ubuntu (or debian based distributions):
+
+```bash
+sudo apt update
+sudo apt install build-essential
+```
+
+Then you can install the last python modules with pip (because those modules are not available via anaconda)
+```bash
+pip install gvar --no-deps
+pip install lsqfit --no-deps
+pip install pyneb --no-deps
+```
+
+### 4. Install jupyter
+
+```bash
+conda install -n learn -c conda-forge jupyterlab
+```
+Run it
+
+```bash
+conda activate learn # you don't need to do it if you are already in the orb environment
+jupyter lab
+```
+You should now have your web browser opened and showing the jupyter lab interface !
+
+
+## General bibliography
+
+* [Wall, J.V & Jenkins, C.R., Practical Statistics for Astronomers](https://doi.org/10.1017/CBO9780511536618)
+* [Andrae, R., Error estimation in astronomy: A guide](http://arxiv.org/abs/1009)
+* [Goodfellow, Bengio, Courville, Deep Learning](http://www.deeplearningbook.org/)
+* [Phil, G, Bayesian Logical Data Analysis for the Physical Sciences](https://doi.org/10.1017/CBO9780511791277)
+ 
