@@ -19,7 +19,7 @@ Workshop series on data analysis and machine learning for astrophysics
 - Scipy
 - Matplotlib / k3d
 - Astropy
-- [Dealing with uncertainties (Gvar and PyNeb)](mcmc/uncetainties.ipynb)
+- [Dealing with uncertainties (Gvar and PyNeb)](./mcmc/uncertainties.ipynb)
 
 ### 1 - Optimization and Modeling
 
