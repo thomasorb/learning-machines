@@ -2,7 +2,13 @@
 
 Workshop series on data analysis and machine learning for astrophysics
 
-<img style="float: center;" width=300 src="../images/readme.png" url=https://retrosci-fi.tumblr.com/post/144136869134/hugo-gernsback-the-great-writer-with-his-idea>
+<figure>
+<img style="float: center;" width=300 src="images/readme.png" url=https://retrosci-fi.tumblr.com/post/144136869134/hugo-gernsback-the-great-writer-with-his-idea></img>
+<figcaption>
+  https://retrosci-fi.tumblr.com/</a>
+ </figcaption>
+</figure>
+
 
 ## Table of Contents
 
