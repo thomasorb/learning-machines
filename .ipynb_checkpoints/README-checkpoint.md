@@ -2,18 +2,26 @@
 
 Workshop series on data analysis and machine learning for astrophysics
 
-<img style="float: center;" width=300 src="../images/readme.png" url=https://retrosci-fi.tumblr.com/post/144136869134/hugo-gernsback-the-great-writer-with-his-idea>
+<figure>
+<img style="float: center;" width=300 src="images/readme.png" url=https://retrosci-fi.tumblr.com/post/144136869134/hugo-gernsback-the-great-writer-with-his-idea></img>
+<figcaption>
+  https://retrosci-fi.tumblr.com/</a>
+ </figcaption>
+</figure>
+
 
 ## Table of Contents
 
 ### 0 - Python for data analysis 101
 
-- Object Oriented Programming: take the green path and create a software ecosystem
+- [Python, first steps on understanding Object-Oriented Programming](./basics/python.ipynb)
+- [Python data structures: list, tuple, dict](./basics/list_tuple_dict.ipynb)
 - Numpy: killing the for-loop
 - Scipy
 - Matplotlib / k3d
 - Astropy
-- [Dealing with uncertainties (Gvar and PyNeb)](mcmc/uncetainties.ipynb)
+- Object Oriented Programming: take the green path and create a software ecosystem
+- [Dealing with uncertainties (Gvar and PyNeb)](./mcmc/uncertainties.ipynb)
 
 ### 1 - Optimization and Modeling
 
@@ -68,7 +76,7 @@ conda install conda-build
 create an environment and install needed modules manually
 ```bash
 conda create -n learn python=3 .7 
-conda install -n learn numpy scipy bottleneck matplotlib astropy cython h5py pandas
+conda install -n learn numpy scipy bottleneck matplotlib astropy cython h5py pytables pandas
 conda install -n learn -c conda-forge pyregion
 conda install -n learn -c astropy photutils astroquery
 ```
@@ -101,6 +109,7 @@ Then you can install the last python modules with pip (because those modules are
 pip install gvar --no-deps
 pip install lsqfit --no-deps
 pip install pyneb --no-deps
+pip install anytree --no-deps
 ```
 
 ### 4. Install jupyter
