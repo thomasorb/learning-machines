@@ -16,12 +16,11 @@ Workshop series on data analysis and machine learning for astrophysics
 
 - [Python, first steps on understanding Object-Oriented Programming](./basics/python.ipynb)
 - [Python data structures: list, tuple, dict](./basics/list_tuple_dict.ipynb)
-- Numpy: killing the for-loop
-- Scipy
-- Matplotlib / k3d
-- Astropy
-- Object Oriented Programming: take the green path and create a software ecosystem
+- [Numpy: killing the for-loop](./basics/numpy)
+- Detecting things (stats fundaments)
+- [Detecting stars](./basics/exercise_star_detection_1.ipynb)
 - [Dealing with uncertainties (Gvar and PyNeb)](./mcmc/uncertainties.ipynb)
+- Object Oriented Programming: take the green path and create a software ecosystem
 
 ### 1 - Optimization and Modeling
 
@@ -43,6 +42,7 @@ Workshop series on data analysis and machine learning for astrophysics
 - Classification and modeling
   - PCA: how to start drawing curved lines
   - Walk through random forests and let the machines show you what you fail to see
+  - Hierarchical clustering
 
 - examples:
   - Find a thousand planetary nebulae in a 3 billion voxels haystack
@@ -51,6 +51,9 @@ Workshop series on data analysis and machine learning for astrophysics
 ### 3 - Deep learning
  
 Make intelligence emerge from sand and practice ethical slavery
+
+- The easy path to the simulation of a galaxy with autoencoders (but you might learn nothing useful from a physicist point-of-view)
+
 
 ## Installation
 
