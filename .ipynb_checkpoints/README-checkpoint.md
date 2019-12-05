@@ -14,13 +14,15 @@ Workshop series on data analysis and machine learning for astrophysics
 
 ### 0 - Python for data analysis 101
 
+Make sure you understand this first
+
 - [Python, first steps on understanding Object-Oriented Programming](./basics/python.ipynb)
 - [Python data structures: list, tuple, dict](./basics/list_tuple_dict.ipynb)
-- [Numpy: killing the for-loop](./basics/numpy)
-- Detecting things (stats fundaments)
-- [Detecting stars](./basics/exercise_star_detection_1.ipynb)
-- [Dealing with uncertainties (Gvar and PyNeb)](./mcmc/uncertainties.ipynb)
-- Object Oriented Programming: take the green path and create a software ecosystem
+- [Numpy: killing the for-loop](./basics/numpy.ipynb)
+- [Detecting things (some classical stats fundaments and the question of SNR)](./basics/detection_and_snr.ipynb)
+- [Dealing with uncertainties (Gvar, PyNeb and some Monte-Carlo)](./mcmc/uncertainties.ipynb)
+- [Detecting stars (Numpy, Astropy, Astroquery, Pandas)](./basics/exercise_star_detection_1.ipynb)
+
 
 ### 1 - Optimization and Modeling
 
@@ -52,6 +54,8 @@ Workshop series on data analysis and machine learning for astrophysics
  
 Make intelligence emerge from sand and practice ethical slavery
 
+- Creating a brain from scratch
+- Become a god and simulate life
 - The easy path to the simulation of a galaxy with autoencoders (but you might learn nothing useful from a physicist point-of-view)
 
 
