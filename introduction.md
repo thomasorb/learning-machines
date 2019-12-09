@@ -2,7 +2,8 @@
 
 
 Machine-learning:
-[Automated processes that learn by example in order to classify, predict, discover or generate new data][1]
+
+Automated processes that learn by example in order to classify, predict, discover or generate new data [Fluke2019][2]
 
 Why this course ?
 
@@ -39,5 +40,5 @@ Why this course ?
 
 ## Bibliography
 
-- [1]: Željko, I., (2014) Statistics, Data Mining, and Machine Learning in Astronomy
-- [2]: Fluke, J., Jacobs, C., (2019) Surveying the reach and maturity of machine learning and artificial intelligence in astronomy
+[1]: Željko, I., (2014) Statistics, Data Mining, and Machine Learning in Astronomy
+[2]: Fluke, J., Jacobs, C., (2019) Surveying the reach and maturity of machine learning and artificial intelligence in astronomy
