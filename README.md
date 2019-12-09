@@ -26,11 +26,16 @@ Make sure you understand this first
 
 ### 1 - Optimization and Modeling
 
-- Classical modeling: least-square basics (best fit and classic uncertainty estimation)
-- LSMC: exploring the parameter space with Monte-Carlo
-- code parallelization (writing multiple papers at the same time)
-- Bayesian optimization and the Markov-Chain (chaining drunks)
-- First steps on the Bayesian side of the force : Okham's razor, systematic errors and the power of priors.
+- [Optimization basics](./basics/optimization.ipynb)
+- [From classical fit to MCMC fit](./mcmc/mcmc.ipynb)
+  - Classical modeling: least-square basics (best fit and classic uncertainty estimation)
+  - LSMC: exploring the parameter space with Monte-Carlo
+  - Bayesian optimization and the Markov-Chain (chaining drunks)
+ 
+- Example: MCMC from scratch
+  - code parallelization (writing multiple papers at the same time)
+
+- Next steps on the Bayesian side of the force : Okham's razor, systematic errors and the power of priors.
  
 - examples: 
   - Non-linear model fitting
@@ -135,6 +140,7 @@ You should now have your web browser opened and showing the jupyter lab interfac
 
 ## General bibliography
 
+* [Géron, A., Hands-On Machine learning with Scikit-learn and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 * [Wall, J.V & Jenkins, C.R., Practical Statistics for Astronomers](https://doi.org/10.1017/CBO9780511536618)
 * [Andrae, R., Error estimation in astronomy: A guide](http://arxiv.org/abs/1009)
 * [Goodfellow, Bengio, Courville, Deep Learning](http://www.deeplearningbook.org/)
