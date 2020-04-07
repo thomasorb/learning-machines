@@ -87,7 +87,7 @@ conda install conda-build
 
 create an environment and install needed modules manually
 ```bash
-conda create -n learn python=3 .7 
+conda create -n learn python=3.7 
 conda install -n learn numpy scipy bottleneck matplotlib astropy cython h5py pytables pandas
 conda install -n learn -c conda-forge pyregion
 conda install -n learn -c astropy photutils astroquery
