@@ -12,7 +12,7 @@ Y ~ Ŷ = f(X, P)
 - Regression
   - based on Y, find P
   - dimensionality reduction 
-  - machine-learning: classification
+  - machine-learning: classification, 
   - data reduction
 
 - Modeling
